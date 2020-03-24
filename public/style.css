@@ -1,0 +1,23 @@
+body,h1{
+  padding-top:80px;
+  word-wrap:break-word;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: #9ecd0d;
+  background-color: blue;
+  text-align: center;
+}
+.row{
+  margin-left: 400px;
+}
+.form-control{
+  border:2px solid #cf0cc0;
+}
+img{
+  height: 200px;
+}
+
+.message{
+  border:2px solid purple;
+  background-color: white;
+  border-radius: 5%;
+}

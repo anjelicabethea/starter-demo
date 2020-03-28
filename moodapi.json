@@ -1,0 +1,30 @@
+//data.json
+{
+    {
+      "moods": "happy",
+      "color": "yellow",
+
+    },
+    {
+      "moods": "mad",
+      "color": "red",
+
+    },
+    {
+      "moods": "sad",
+      "color": "blue",
+
+    },
+    {
+      "moods": "concerned",
+      "color": "gray",
+
+    },
+    {
+      "moods": "royal",
+      "color": "purple",
+
+    },
+
+
+    }

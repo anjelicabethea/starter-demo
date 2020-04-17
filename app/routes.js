@@ -1,4 +1,5 @@
-module.exports = function(app, passport, db) {
+module.exports = function(app, passport, db){
+// const mood = require ('../app/moodapi.json')
 
 // normal routes ===============================================================
 
@@ -11,6 +12,8 @@ module.exports = function(app, passport, db) {
     app.get('/profile', isLoggedIn, function(req, res) {
         db.collection('messages').find().toArray((err, result) => {
           if (err) return console.log(err)
+         // res.header("Content-Type",'application/json');
+         
           res.render('profile.ejs', {
             user : req.user,
             messages: result
@@ -71,6 +74,7 @@ module.exports = function(app, passport, db) {
         res.send('Message deleted!')
       })
     })
+
 
 // =============================================================================
 // AUTHENTICATE (FIRST LOGIN) ==================================================

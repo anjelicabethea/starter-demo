@@ -1,13 +1,10 @@
 body,h1{
   padding-top:80px;
   word-wrap:break-word;
-  font-family: 'Liu Jian Mao Cao', cursive;
-  color: #9ecd0d;
-  background-color: blue;
+  font-family: 'Quicksand', sans-serif;
+  color: #ff1e47;
+  background: linear-gradient(#e66465, #9198e5);
   text-align: center;
-}
-.row{
-  margin-left: 400px;
 }
 .form-control{
   border:2px solid #cf0cc0;
@@ -20,4 +17,45 @@ img{
   border:2px solid purple;
   background-color: white;
   border-radius: 5%;
+}
+
+.red {
+  border-radius: 50%;
+  background: red;
+  height: 100px;
+  width: 100px;
+  outline: 0;
+}
+
+.blue {
+  border-radius: 50%;
+  background: blue;
+  height: 100px;
+  width: 100px;
+  outline: 0;
+}
+
+.green {
+  border-radius: 50%;
+  background: green;
+  height: 100px;
+  width: 100px;
+  outline: 0;
+}
+
+.purple {
+  border-radius: 50%;
+  background: purple;
+  height: 100px;
+  width: 100px;
+  outline: 0;
+}
+
+
+.yellow {
+  border-radius: 50%;
+  background: yellow;
+  height: 100px;
+  width: 100px;
+  outline: 0;
 }
